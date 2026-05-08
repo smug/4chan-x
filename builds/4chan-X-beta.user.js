@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         4chan X beta
-// @version      1.14.23.2
+// @version      1.14.24.0
 // @minGMVer     1.14
 // @minFFVer     26
 // @namespace    4chan-X
@@ -210,7 +210,7 @@ docSet = function() {
 };
 
 g = {
-  VERSION:   '1.14.23.2',
+  VERSION:   '1.14.24.0',
   NAMESPACE: '4chan X.',
   sites:     Object.create(null),
   boards:    Object.create(null)
@@ -8192,7 +8192,7 @@ SW = {};
         isArchived: '.archivedIcon'
       },
       file: {
-        text: '.file > :first-child',
+        text: '.file > .fileText',
         link: '.fileText > a',
         thumb: 'a.fileThumb > [data-md5]'
       },
